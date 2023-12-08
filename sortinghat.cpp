@@ -136,6 +136,4 @@ int main()
         std::cout << "Welcome to " << houseNames[winners[tiebreaker]] << "!\n";
     }
 
-
-
 }

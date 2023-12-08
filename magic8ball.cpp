@@ -35,6 +35,7 @@ while (true)
     
     if (choice == 'Y' || "y")
     {
+        srand(time(NULL));
         int message = rand() % (sizeof(messages) / sizeof(messages[0]));
         std::cout << messages[message] << "\n";
     }
@@ -43,7 +44,4 @@ while (true)
         break;
     }
 }
-
-
-
 }
